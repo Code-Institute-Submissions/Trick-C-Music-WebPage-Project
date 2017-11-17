@@ -4,30 +4,30 @@ body {
      background-color: #CFD8DC;
 }
 
-.header {
-     background-color: #000;
-     height: 70px;
-     position: relative;
-}
-
 #logo {
      position: absolute;
      margin: 10px 20px;
      transition: filter .2s ease-in-out;
+     z-index: 99;
 }
 
 #logo img {
      height: 50px;
+     background: transparent;
 }
 
 #logo:hover,
 #logo:active {
-     filter: grayscale(10%) brightness(15%) sepia(10%) hue-rotate(-45deg) saturate(10000%) contrast(1);
+     filter: grayscale(10%) brightness(15%) sepia(10%) hue-rotate(-30deg) saturate(10000%) contrast(1);
 }
 
-modal-body.form-group>input:focus {
-     background-color: #CFD8DC;
-     ;
+.form-group {
+     margin-left: 5px;
+}
+
+.form-group input {
+     margin-right: 10px;
+     margin-left: 3px;
 }
 
 .navbar .container-fluid {
@@ -42,6 +42,77 @@ modal-body.form-group>input:focus {
      -o-background-size: cover;
      background-size: cover;
      height: 80vh;
+}
+
+.container-fluid .jumbotron {
+     padding-top: 3vh;
+     padding-bottom: 3vh;
+     margin-bottom: 0;
+     color: inherit;
+     background-color: #eee;
+     border-radius: 0;
+}
+
+.jumbotron p {
+     margin-bottom: 0;
+     font-weight: 700;
+}
+
+.next-event,
+.latest-mix,
+.latest-releases {
+     text-align: center;
+}
+
+.boxes-releases {
+     display: inline-block;
+     max-width: 45%;
+     margin-bottom: 4vh;
+}
+
+.img-circle {
+     width: 60%;
+     margin: 0 5% 0 5%;
+}
+
+/*-------------------------------------------Media Queries*/
+
+@media (max-width: 494px) {
+     .boxes-releases {
+          min-width: 80%;
+          max-width: 90%;
+     }
+     .img-circle {
+          width: 70%;
+     }
+}
+
+@media (min-width: 992px) {
+     .container-fluid .jumbotron {
+          padding-left: 0px;
+          padding-right: 0px;
+     }
+}
+
+@media (min-width: 1200px) {
+     .container-fluid .jumbotron {
+          padding-left: 0px;
+          padding-right: 0px;
+     }
+     .section-home-container h2 {
+          margin-bottom: 30px;
+     }
+}
+
+@media (min-width: 1665px) {
+     .img-circle {
+          width: 95%;
+          margin: 0 10% 0 10%;
+     }
+          .boxes-releases {
+       margin-left: 5%;
+               margin-right: 5%;
+     }
 }
 
 /*-------------------------------------------Colors
@@ -83,5 +154,3 @@ BLACK
 RED 
     background-image: linear-gradient(to bottom, #ff6478, #8f0214 66%, #ff6478);
     *stran "border: 1px solid;"
-
-
