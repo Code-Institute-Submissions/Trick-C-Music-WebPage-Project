@@ -1,0 +1,49 @@
+html,
+body {
+     font-family: "Exo 2", sans-serif;
+     background-color: #CFD8DC;
+}
+
+.header {
+     background-color: #000;
+     height: 70px;
+     position: relative;
+}
+
+#logo {
+     position: absolute;
+     margin: 10px 20px;
+     transition: filter .2s ease-in-out;
+}
+
+#logo img {
+     height: 50px;
+}
+#logo:hover,
+#logo:active {
+filter: grayscale(10%) brightness(15%) sepia(10%) hue-rotate(-45deg) saturate(10000%) contrast(1);
+}
+
+modal-body.form-group>input:focus {
+    background-color: #CFD8DC;;
+}
+
+
+.navbar .container-fluid {
+     margin-top: 10px;
+}
+
+.main-home-container {
+     clear: both;
+     background: url("images/main-image.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height: 80vh;
+}
+
+/*-------------------------------------------Colors
+
+grey: #CFD8DC;
+red: #8f0214;

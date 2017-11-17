@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+     <link href="https://fonts.googleapis.com/css?family=Exo+2:400,600,700,800,900" rel="stylesheet">
+     <link rel="stylesheet" href="style.css" type="text/css" />
+     <link rel="stylesheet" href="nav.css" type="text/css" />
+     <title>Trick-C | First Lady of Slovenian Techno</title>
+</head>
+
+<body>
+     <!-- Header -->
+     <header class="header">
+          <div id="logo">
+               <a href="index.html"><img src="images/logo-white.png" alt="Trick-C"></a>
+          </div>
+          <nav class="navbar navbar-default">
+               <div class="container-fluid">
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                         </button>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
+                         <ul class="nav navbar-nav">
+                              <li><a href="releases.html">RELEASES</a></li>
+                              <li><a href="events.html">EVENTS</a></li>
+                              <li><a href="music.html">MUSIC</a></li>
+                              <li><a href="projects.html">PROJECTS</a></li>
+                              <li><a href="about.html">ABOUT</a></li>
+                         </ul>
+                         <span><button class="btn btn-default navbar-btn hidden-xs"><a data-toggle="modal" data-target="#contactModal">Contact</a></button></span>
+                    </div>
+               </div>
+          </nav>
+     </header>
+
+     <main class="container-fluid main-home-container">
+
+     </main>
+
+     <!-- Modal -->
+     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                    <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                         <h4 class="modal-title" id="myModalLabel">Contact Form</h4>
+                    </div>
+                    <div class="modal-body">
+                         <form>
+                              <div class="form-group">
+                                   <input type="text" name="name" class="form-control" id="name" placeholder="Name" required/>
+                                   <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                   <p class="help-block">We'll never share your email with anyone</p>
+                              </div>
+                              <div class="form-group">
+
+                                   <input type="radio" id="book-event" name="message-option">
+                                   <label for="book-event">Book Event</label>
+                                   <input type="radio" id="get-events" name="message-option">
+                                   <label for="get-events">Receive Events Info</label>
+                                   <textarea rows="5" name="message" class="form-control" id="message" placeholder="Message"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-success">Send</button>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
