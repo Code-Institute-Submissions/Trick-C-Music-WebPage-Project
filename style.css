@@ -19,15 +19,16 @@ body {
 #logo img {
      height: 50px;
 }
+
 #logo:hover,
 #logo:active {
-filter: grayscale(10%) brightness(15%) sepia(10%) hue-rotate(-45deg) saturate(10000%) contrast(1);
+     filter: grayscale(10%) brightness(15%) sepia(10%) hue-rotate(-45deg) saturate(10000%) contrast(1);
 }
 
 modal-body.form-group>input:focus {
-    background-color: #CFD8DC;;
+     background-color: #CFD8DC;
+     ;
 }
-
 
 .navbar .container-fluid {
      margin-top: 10px;
@@ -47,3 +48,40 @@ modal-body.form-group>input:focus {
 
 grey: #CFD8DC;
 red: #8f0214;
+
+/*-------------------------------------------CButtons
+
+BLACK
+     .navbar-btn,
+     .navbar-btn:active,
+     .navbar-btn:focus {
+          background: #1a1a1a;
+          border-color: #2f3034 #2f3034 #232427;
+          background-image: -webkit-linear-gradient(top, #060606, #47494f 66%, #060606);
+          background-image: -moz-linear-gradient(top, #060606, #47494f 66%, #060606);
+          background-image: -o-linear-gradient(top, #060606, #47494f 66%, #060606);
+          background-image: linear-gradient(to bottom, #060606, #47494f 66%, #060606);
+          text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+          border: 1px solid;
+          border-radius: 7px;
+          cursor: pointer;
+          -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+     }
+     button a {
+          color: #fff;
+     }
+     .navbar-btn:hover {
+          border-color: #8f0214;
+     }
+     button a:hover {
+          color: #fff;
+          text-decoration: none;
+     }
+
+
+RED 
+    background-image: linear-gradient(to bottom, #ff6478, #8f0214 66%, #ff6478);
+    *stran "border: 1px solid;"
+
+
