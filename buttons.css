@@ -1,8 +1,8 @@
 /*BLACK-navbar,footer*/
 
-.navbar-btn,
-.navbar-btn:active,
-.navbar-btn:focus {
+.btn.btn-black,
+.btn.btn-black:active,
+.btn.btn-black:focus {
      background: #1a1a1a;
      border-color: #2f3034 #2f3034 #232427;
      background-image: -webkit-linear-gradient(top, #060606, #47494f 66%, #060606);
@@ -21,7 +21,7 @@ button a {
      color: #fff;
 }
 
-.navbar-btn:hover {
+.btn-black:hover {
      border-color: #8f0214;
 }
 
