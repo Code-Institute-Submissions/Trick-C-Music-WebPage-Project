@@ -48,11 +48,11 @@
 
      <main class="container-fluid main-home-container">
           <div class="cta-container">
-               <p>Don't want to miss the next event? Be the first to know!</p>
+               <div class="opaque-overlay">&nbsp;</div>
+               <p>Don't want to miss the next event? Be the first to know!<span>
                <input type="email" id="email" placeholder="   Email" required>
-               <input type="submit" value="Get Info">
+                    <input type="submit" value="Get Info"></span></p>
           </div>
-
      </main>
 
 
@@ -67,14 +67,24 @@
                </div>
           </div>
           <div class="row latest-mix latest-releases">
-               <div class="col-xs-12 col-md-6 col-md-push-6 col-lg-4 col-lg-push-8">
+               <div class="col-xs-12 col-md-6 col-md-push-6 col-lg-4 col-lg-push-8  homepage-right-section">
                     <h2>LATEST MIX:</h2>
                     <div class="embed-responsive embed-responsive-16by9">
                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5iM8E2B0yIo?rel=0"></iframe>
                     </div>
+                    <div class="projects-homepage hidden-xs hidden-sm">
+                         <h3><i>First Lady of Slovenian Techno</i></h3>
+                         <h4>PROJECTS:</h4>
+                         <p><b>Urban Divas</b> is a project created after many years of experience in the field of organisation, booking and participation in various projects on the basis of a number of experiences and cooperation in the promotion of female
+                              DJs in Slovenia, neighboring Croatia and Belgium.</p>
+                         <hr>
+                         <p><b>BodyWork</b> puts "Underground Techno" into a wider club environment. Trick-C has come up with a new series of intimate and special events which bring freshness and novelty, for all the people who love techno with the touch
+                              of the pristine underground.</p>
+                    </div>
+
                </div>
 
-               <div class="col-xs-12 col-md-6 col-md-pull-6 col-lg-8 col-lg-pull-4">
+               <div class="col-xs-12 col-md-6 col-md-pull-6 col-lg-8 col-lg-pull-4 homepage-left-section">
                     <h2>LATEST RELEASES:</h2>
                     <div class="boxes-releases">
                          <img src="images/releases/release1.jpg" class="img-circle">
@@ -132,7 +142,11 @@
                     </div>
                </div>
           </div>
-
+          <div class="row back-to-top visible-xs">
+               <div class="col-xs-12">
+                    <a href="#logo" class="btn navbar-btn">Back to Top</a>
+               </div>
+          </div>
      </section>
 
 
@@ -141,7 +155,7 @@
           <div class="logo-footer">
                <a href="index.html"><img src="images/logo-white.png" alt="Trick-C"><h1 class="sr-only">Trick-C</h1></a>
           </div>
-          <div class="signature"><i>Tjasa Jan | 11/2017</i></div>
+          <div class="signature"><i>tjasajan&nbsp; | &nbsp;11/2017</i></div>
           <div>
                <button class="btn btn-default navbar-btn"><a data-toggle="modal" data-target="#contactModal">Contact</a></button>
           </div>
@@ -153,8 +167,8 @@
           <div class="modal-dialog" role="document">
                <div class="modal-content">
                     <div class="modal-header">
-                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
-                         <h4 class="modal-title" id="myModalLabel">Contact Form</h4>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="color: #000">x</span></button>
+                         <h4 class="modal-title" id="myModalLabel">Send a message!</h4>
                     </div>
                     <div class="modal-body">
                          <form>
@@ -172,7 +186,7 @@
                                    <input type="radio" id="m-other" name="message-option">
                                    <textarea rows="5" name="message" class="form-control" id="message" placeholder="Message"></textarea>
                               </div>
-                              <button type="submit" class="btn btn-success">Send</button>
+                              <button type="submit" class="btn btn-red">Send</button>
                          </form>
                     </div>
                </div>

@@ -1,4 +1,4 @@
-/*BLACK-navbar*/
+/*BLACK-navbar,footer*/
 
 .navbar-btn,
 .navbar-btn:active,
@@ -30,7 +30,7 @@ button a:hover {
      text-decoration: none;
 }
 
-/*RED-releases*/
+/*RED-releases-homepage*/
 
 .btn.btn-red,
 .btn.btn-red:active,
@@ -50,7 +50,8 @@ button a:hover {
 }
 
 .caption a,
-.cta-container button {
+.cta-container button,
+.modal button {
      color: #fff;
 }
 
@@ -59,28 +60,11 @@ button a:hover {
 }
 
 .caption a:hover,
-.cta-container button:hover {
+.cta-container button:hover,
+.modal button:hover {
      color: #fff;
      text-decoration: none;
 }
 
 
-/*RED-CTA*/
-
-.btn.btn-red-custom,
-.btn.btn-red-custom:active,
-.btn.btn-red-custom:focus {
-     background: #CFD8DC;
-     border-color: #2f3034 #2f3034 #232427;
-     background-image: -webkit-linear-gradient(top, #ff6478, #47494f 66%, #ff6478);
-     background-image: -moz-linear-gradient(top, #ff64786, #47494f 66%, #ff6478);
-     background-image: -o-linear-gradient(top, #ff6478, #47494f 66%, #ff6478);
-     background-image: linear-gradient(to bottom, #ff6478, #8f0214 66%, #ff6478);
-     text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
-     border: 1px solid;
-     border-radius: 10px;
-     cursor: pointer;
-     -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
-     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
-}
 

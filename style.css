@@ -4,6 +4,8 @@ body {
      background-color: #CFD8DC;
 }
 
+/*-------------------------------------------Header*/
+
 #logo,
 .logo-footer {
      position: absolute;
@@ -37,6 +39,8 @@ body {
      margin-top: 10px;
 }
 
+/*-------------------------------------------Main-HomePage*/
+
 .main-home-container {
      clear: both;
      background: url("images/main-image.jpg") no-repeat center center fixed;
@@ -45,6 +49,18 @@ body {
      -o-background-size: cover;
      background-size: cover;
      height: 80vh;
+     padding: 0;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    margin-top: -70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
 }
 
 .cta-container {
@@ -52,6 +68,7 @@ body {
      margin-top: 70px;
      position: relative;
      height: 70vh;
+     width: 100vw;
      align-items: flex-end;
      justify-content: center;
 }
@@ -59,6 +76,8 @@ body {
 .cta-container p,
 .cta-container input {
      margin-bottom: 1vh;
+     opacity: 0.95;
+     z-index: 3;
 }
 
 .cta-container p {
@@ -68,13 +87,13 @@ body {
 
 .cta-container input[type="email"] {
      border-radius: 10px;
-     min-width: 250px;
+     min-width: 300px;
      margin-left: 1vw;
 }
 
 .cta-container input[type="submit"] {
      border-radius: 10px;
-     margin-left: -55px;
+     margin-left: -86px;
      background-image: linear-gradient(to bottom, #ff6478, #8f0214 66%, #ff6478);
      color: #fff;
 }
@@ -82,6 +101,9 @@ body {
 .cta-container input[type="submit"]:hover {
      border-color: #8f0214;
 }
+
+
+/*-------------------------------------------Section-HomePage*/
 
 .container-fluid .jumbotron {
      padding-top: 3vh;
@@ -97,6 +119,30 @@ body {
      font-weight: 700;
 }
 
+.homepage-left-section{
+     padding: 0;
+}
+.section-home-container h2,
+.section-home-container h3, 
+.section-home-container h4 {
+     padding-top: 1vh;
+}
+.projects-homepage h3 {
+     color: #8f0214;
+     font-weight: 600;
+     padding-top: 3vh;
+}
+.section-home-container h4 {
+     padding-bottom: 15px;
+}
+.projects-homepage hr {
+     width: 50px;
+     border-top-color: #333;
+     opacity: 0.5;
+}
+.projects-homepage p {
+     text-align: justify;
+}
 .next-event,
 .latest-mix,
 .latest-releases {
@@ -113,6 +159,18 @@ body {
      width: 60%;
      margin: 0 5% 0 5%;
 }
+
+.back-to-top {
+     text-align: center;
+}
+.back-to-top a {
+     color: #fff;
+}
+.back-to-top a:hover {
+     color: #fff;
+}
+
+/*-------------------------------------------Footer*/
 
 .footer {
      background-color: #000;
@@ -150,15 +208,28 @@ position: absolute;
      }
 }
 
+@media (max-width: 840px) {
+     .cta-container p {
+          margin-left: 9px;
+     }
+     .cta-container input {
+          margin-right: 9px;
+     }
+     }
+
 @media (min-width: 992px) {
      .container-fluid .jumbotron {
           padding-left: 0px;
           padding-right: 0px;
      }
      .cta-container input[type="email"] {
-          min-width: 300px;
+          min-width: 350px;
           margin-left: 2vw;
      }
+     .homepage-right-section {
+     padding-left: 0;
+     padding-right: 30px;
+}
 }
 
 @media (min-width: 1200px) {
@@ -198,3 +269,8 @@ position: absolute;
 
 grey: #CFD8DC;
 red: #8f0214;
+
+
+
+
+---------------------------------
