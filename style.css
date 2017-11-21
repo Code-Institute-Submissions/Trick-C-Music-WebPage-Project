@@ -238,9 +238,51 @@ h2 {
 
 
 
+/*-------------------------------------------Section-Content-Releases*/
+
+/*
+audio::-internal-media-controls-download-button {
+    display: none;
+}
+audio::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
+audio::-webkit-media-controls-timeline {
+    -webkit-filter: grayscale(10%) brightness(15%) sepia(10%) hue-rotate(150deg) saturate(1000%) contrast(1);
+}
+audio::-webkit-media-controls-volume-slider-container {
+     background-color: #eee;
+}
+audio::-webkit-media-controls-volume-slider {
+     background-color: #eee;
+}
+*/
+
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 32px); 
+}
+
+audio::-webkit-media-controls-panel
+audio::-internal-media-controls-download-button
+audio::-webkit-media-controls-enclosure
+audio::-webkit-media-controls-mute-button
+audio::-webkit-media-controls-play-button
+audio::-webkit-media-controls-timeline-container
+audio::-webkit-media-controls-current-time-display
+audio::-webkit-media-controls-time-remaining-display
+audio::-webkit-media-controls-timeline
+audio::-webkit-media-controls-volume-slider-container
+audio::-webkit-media-controls-volume-slider
+audio::-webkit-media-controls-seek-back-button
+audio::-webkit-media-controls-seek-forward-button
+audio::-webkit-media-controls-fullscreen-button
+audio::-webkit-media-controls-rewind-button
+audio::-webkit-media-controls-return-to-realtime-button
+audio::-webkit-media-controls-toggle-closed-captions-button
+
+
 /*-------------------------------------------Section-Image-Pages*/
-
-
 
 .cta-container.cta-page-container {
      width: 100vw;
