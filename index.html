@@ -13,7 +13,7 @@
      <title>Trick-C | First Lady of Slovenian Techno</title>
 </head>
 
-<body>
+<body id="page-height">
      <!-- Header -->
      <header class="header">
           <div id="logo">
@@ -49,9 +49,11 @@
      <main class="container-fluid main-home-container">
           <div class="cta-container">
                <div class="opaque-overlay">&nbsp;</div>
-               <p>Don't want to miss the next event? Be the first to know!<span>
-               <input type="email" id="email" placeholder="   Email" required>
-                    <input type="submit" value="Get Info"></span></p>
+               <p>Don't want to miss the next event? Be the first to know!
+                    <span id="cta-line"><input type="email" id="email" placeholder="   Email" required>
+                           <input type="submit" id="getinfo" value="Get Info">
+                    </span>
+               </p>
           </div>
      </main>
 
@@ -60,84 +62,86 @@
 
 
      <!-- Content Home Page -->
-     <section class="container-fluid section-home-container">
+     <section class="container-fluid">
           <div class="row next-event jumbotron">
                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6">
                     <p>NEXT EVENT: 9.12.2017 @ Maribor, Slovenia</p>
                </div>
           </div>
-          <div class="row latest-mix latest-releases">
-               <div class="col-xs-12 col-md-6 col-md-push-6 col-lg-4 col-lg-push-8  homepage-right-section">
-                    <h2>LATEST MIX:</h2>
-                    <div class="embed-responsive embed-responsive-16by9">
-                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5iM8E2B0yIo?rel=0"></iframe>
-                    </div>
-                    <div class="projects-homepage hidden-xs hidden-sm">
-                         <h3><i>First Lady of Slovenian Techno</i></h3>
-                         <h4>PROJECTS:</h4>
-                         <p><b>Urban Divas</b> is a project created after many years of experience in the field of organisation, booking and participation in various projects on the basis of a number of experiences and cooperation in the promotion of female
-                              DJs in Slovenia, neighboring Croatia and Belgium.</p>
-                         <hr>
-                         <p><b>BodyWork</b> puts "Underground Techno" into a wider club environment. Trick-C has come up with a new series of intimate and special events which bring freshness and novelty, for all the people who love techno with the touch
-                              of the pristine underground.</p>
+          <div class="section-home-container">
+               <div class="row latest-mix latest-releases">
+                    <div class="col-xs-12 col-md-6 col-md-push-6 col-lg-4 col-lg-push-8  homepage-right-section">
+                         <h2>LATEST MIX:</h2>
+                         <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5iM8E2B0yIo?rel=0"></iframe>
+                         </div>
+                         <div class="projects-homepage hidden-xs hidden-sm">
+                              <h3><i>"First Lady of Slovenian Techno"</i></h3>
+                              <h4>PROJECTS:</h4>
+                              <p><b>Urban Divas</b> is a project created after many years of experience in the field of organisation, booking and participation in various projects on the basis of a number of experiences and cooperation in the promotion of
+                                   female DJs in Slovenia, neighboring Croatia and Belgium.</p>
+                              <hr>
+                              <p><b>BodyWork</b> puts "Underground Techno" into a wider club environment. Trick-C has come up with a new series of intimate and special events which bring freshness and novelty, for all the people who love techno with the
+                                   touch of the pristine underground.</p>
+                         </div>
+
                     </div>
 
-               </div>
-
-               <div class="col-xs-12 col-md-6 col-md-pull-6 col-lg-8 col-lg-pull-4 homepage-left-section">
-                    <h2>LATEST RELEASES:</h2>
-                    <div class="boxes-releases">
-                         <img src="images/releases/release1.jpg" class="img-circle">
-                         <div class="caption">
-                              <h3>The Remixes, Vol. 4</h3>
-                              <p>Trick-C, Various Artists</p>
-                              <p><i>Shout Records</i></p>
-                              <p><a href="https://www.beatport.com/release/the-remixes-vol-4/2058257" target="_blank" class="btn btn-default btn-red" role="button">Listen / Buy on Beatport</a></p>
+                    <div class="col-xs-12 col-md-6 col-md-pull-6 col-lg-8 col-lg-pull-4 homepage-left-section">
+                         <h2>LATEST RELEASES:</h2>
+                         <div class="boxes-releases">
+                              <img src="images/releases/release1.jpg" class="img-circle">
+                              <div class="caption">
+                                   <h3>The Remixes, Vol. 4</h3>
+                                   <p>Trick-C, Various Artists</p>
+                                   <p><i>Shout Records</i></p>
+                                   <p><a href="https://www.beatport.com/release/the-remixes-vol-4/2058257" target="_blank" class="btn btn-default btn-red" role="button">Listen / Buy on Beatport</a></p>
+                              </div>
                          </div>
-                    </div>
-                    <div class="boxes-releases">
-                         <img src="images/releases/release2.jpg" class="img-circle">
-                         <div class="caption">
-                              <h3>Subspace</h3>
-                              <p>Trick-C, A-Brothers, Gabeen</p>
-                              <p><i>Shout Records</i></p>
-                              <p><a href="https://www.beatport.com/release/subspace/1931276" target="_blank" class="btn btn-default btn-red" role="button">Listen / Buy on Beatport</a></p>
+                         <div class="boxes-releases">
+                              <img src="images/releases/release2.jpg" class="img-circle">
+                              <div class="caption">
+                                   <h3>Subspace</h3>
+                                   <p>Trick-C, A-Brothers, Gabeen</p>
+                                   <p><i>Shout Records</i></p>
+                                   <p><a href="https://www.beatport.com/release/subspace/1931276" target="_blank" class="btn btn-default btn-red" role="button">Listen / Buy on Beatport</a></p>
+                              </div>
                          </div>
-                    </div>
-                    <div class="boxes-releases">
-                         <img src="images/releases/release3.jpg" class="img-circle">
-                         <div class="caption">
-                              <h3>Lightness</h3>
-                              <p>Trick-C, Various Artists</p>
-                              <p><i>Different Is Different Records</i></p>
-                              <p><a href="https://www.beatport.com/release/lightness/1937030" target="_blank" class="btn btn-red" role="button">Listen / Buy on Beatport</a></p>
+                         <div class="boxes-releases">
+                              <img src="images/releases/release3.jpg" class="img-circle">
+                              <div class="caption">
+                                   <h3>Lightness</h3>
+                                   <p>Trick-C, Various Artists</p>
+                                   <p><i>Different Is Different Records</i></p>
+                                   <p><a href="https://www.beatport.com/release/lightness/1937030" target="_blank" class="btn btn-red" role="button">Listen / Buy on Beatport</a></p>
+                              </div>
                          </div>
-                    </div>
-                    <div class="boxes-releases">
-                         <img src="images/releases/release4.jpg" class="img-circle">
-                         <div class="caption">
-                              <h3>Ask For Treatment EP</h3>
-                              <p>Trick-C, Veztax</p>
-                              <p><i>Vezotonik Records</i></p>
-                              <p><a href="https://www.beatport.com/release/ask-for-treatment-ep/1667359" target="_blank" class="btn btn-default btn-red" role="button">Listen / Buy on Beatport</a></p>
+                         <div class="boxes-releases">
+                              <img src="images/releases/release4.jpg" class="img-circle">
+                              <div class="caption">
+                                   <h3>Ask For Treatment EP</h3>
+                                   <p>Trick-C, Veztax</p>
+                                   <p><i>Vezotonik Records</i></p>
+                                   <p><a href="https://www.beatport.com/release/ask-for-treatment-ep/1667359" target="_blank" class="btn btn-default btn-red" role="button">Listen / Buy on Beatport</a></p>
+                              </div>
                          </div>
-                    </div>
-                    <div class="boxes-releases">
-                         <img src="images/releases/release5.jpg" class="img-circle">
-                         <div class="caption">
-                              <h3>Angular</h3>
-                              <p>Trick-C</p>
-                              <p><i>Different Is Different Records</i></p>
-                              <p><a href="https://www.beatport.com/release/angular/1612337" target="_blank" class="btn btn-default btn-red" role="button">Listen / Buy on Beatport</a></p>
+                         <div class="boxes-releases">
+                              <img src="images/releases/release5.jpg" class="img-circle">
+                              <div class="caption">
+                                   <h3>Angular</h3>
+                                   <p>Trick-C</p>
+                                   <p><i>Different Is Different Records</i></p>
+                                   <p><a href="https://www.beatport.com/release/angular/1612337" target="_blank" class="btn btn-default btn-red" role="button">Listen / Buy on Beatport</a></p>
+                              </div>
                          </div>
-                    </div>
-                    <div class="boxes-releases">
-                         <img src="images/releases/release6.jpg" class="img-circle">
-                         <div class="caption">
-                              <h3>Female:pressure</h3>
-                              <p>Trick-C, Various Artists</p>
-                              <p><i>Different Is Different Records</i></p>
-                              <p><a href="https://www.beatport.com/release/female-pressure/1577592" target="_blank" class="btn btn-red" role="button">Listen / Buy on Beatport</a></p>
+                         <div class="boxes-releases">
+                              <img src="images/releases/release6.jpg" class="img-circle">
+                              <div class="caption">
+                                   <h3>Female:pressure</h3>
+                                   <p>Trick-C, Various Artists</p>
+                                   <p><i>Different Is Different Records</i></p>
+                                   <p><a href="https://www.beatport.com/release/female-pressure/1577592" target="_blank" class="btn btn-red" role="button">Listen / Buy on Beatport</a></p>
+                              </div>
                          </div>
                     </div>
                </div>
@@ -151,7 +155,7 @@
 
 
      <!-- Footer -->
-     <footer class="footer container-fluid">
+     <footer id="footer" class="container-fluid">
           <div class="logo-footer hidden-xs">
                <a href="index.html"><img src="images/logo-white.png" alt="Trick-C"><h1 class="sr-only">Trick-C</h1></a>
           </div>
