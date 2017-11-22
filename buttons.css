@@ -36,6 +36,10 @@ button a:hover,
      color: #fff;
      text-decoration: none;
 }
+.btn-samples a:focus {
+     color: #fff;
+     opacity: 0.5;
+}
 
 /*RED-releases-homepage*/
 
@@ -72,6 +76,9 @@ button a:hover,
      color: #fff;
      text-decoration: none;
 }
-
+.caption a:focus {
+     color: #fff;
+     opacity: 0.5;
+}
 
 
