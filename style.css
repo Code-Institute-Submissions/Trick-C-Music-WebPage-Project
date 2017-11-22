@@ -5,17 +5,17 @@ body {
 }
 
 html {
-      height: 100%;
-
+     height: 100%;
 }
 
 #page-height {
      min-height: 100%;
      position: relative;
 }
+
 #page-height #footer {
-   position: absolute;
-   bottom: 0;
+     position: absolute;
+     bottom: 0;
 }
 
 /*-------------------------------------------Header*/
@@ -98,11 +98,13 @@ html {
 #cta-line {
      position: relative;
 }
+
 #getinfo {
      position: absolute;
      right: 0;
      top: -4px;
 }
+
 .cta-container input[type="email"] {
      border-radius: 10px;
      min-width: 300px;
@@ -145,7 +147,6 @@ html {
      text-align: center;
 }
 
-
 .section-home-container h2,
 .section-home-container h3,
 .section-home-container h4 {
@@ -179,31 +180,22 @@ html {
      text-align: center;
 }
 
-.back-to-top {
-     text-align: center;
-     margin-bottom: 80px;
-     margin-top: 30px;
-}
-
-.back-to-top a {
-     color: #fff;
-}
-
-.back-to-top a:hover {
-     color: #fff;
-}
-
 /*-------------------------------------------Section-Content-Pages-General*/
 
 .page-heading {
      text-align: center;
      padding-top: 3vh;
+     padding-bottom: 3vh;
 }
 
 h2 {
      color: #8f0214;
      font-variant: small-caps;
      font-weight: 600;
+}
+
+hr.transparent {
+     border-top: transparent;
 }
 
 .page-sub-heading h3 {
@@ -214,25 +206,22 @@ h2 {
 
 .section-page-container {
      clear: both;
-     padding: 0 5vw 2vh 5vw;
-     max-width: 2200px;
+     padding: 0 5vw 0 5vw;
+     max-width: 1800px;
      text-align: center;
 }
 
 .page-text {
      text-align: justify;
-     padding-top: 3vh;
      padding-bottom: 3vh;
 }
-
-
 
 /*-------------------------------------------Section-Content-Releases*/
 
 .section-page-container-releases {
      clear: both;
      padding: 0 5vw 2vh 0vw;
-     max-width: 2200px;
+     max-width: 1800px;
      text-align: center;
 }
 
@@ -261,19 +250,26 @@ h2 {
      opacity: 0.5;
 }
 
-/*-------------------------------------------Section-Image-Pages*/
+/*-------------------------------------------Section-Image-General*/
 
-.cta-container.cta-page-container {
-     width: 100vw;
-     text-align: center;
-     margin-top: 30px;
-     margin-bottom: 100px;
-     height: auto;
+.section-page-container.section-image {
+     padding-top: 0;
 }
 
-
-
 /*-------------------------------------------Footer*/
+
+.end-button {
+     margin-top: 5vh;
+     margin-left: 4vw;
+     display: inline-block;
+}
+
+.back-to-top {
+     text-align: center;
+     margin-bottom: 80px;
+     margin-top: 30px;
+     margin-left: 3vw;
+}
 
 #footer {
      background-color: #000;
@@ -299,14 +295,15 @@ h2 {
 
 /*-------------------------------------------Media Queries*/
 
-
 @media (min-width: 768px) {
      .section-page-container {
-     padding-top: 70px;
-          padding-bottom: 120px;
+          padding-top: 70px;
+     }
+     .section-page-container.section-image {
+          padding-bottom: 9vh;
      }
      .section-page-container-releases {
-     padding-top: 70px;
+          padding-top: 70px;
           padding-bottom: 120px;
      }
      .cta-container p {
@@ -333,7 +330,14 @@ h2 {
      .caption-sample {
           padding-left: 0px;
           width: 135%;
-}
+     }
+     .enlarge-image {
+          transition: transform 1s .3s ease-in-out;
+     }
+     .enlarge-image:hover {
+          transform: scale(1.5);
+          z-index: 3;
+     }
 }
 
 @media (min-width: 1200px) {
@@ -347,24 +351,23 @@ h2 {
      .sample-audio,
      .caption-sample {
           width: 140%;
-}
+     }
 }
 
 @media (min-width: 1500px) {
      .sample-audio,
      .caption-sample {
           width: 120%;
-} 
+     }
 }
 
-@media (min-width: 1609px) {       /* not working? */
+@media (min-width: 1609px) {
+     /* not working? */
      .boxes-releases {
           padding-bottom: 5vh;
      }
 }
 
-
-     
 /*-------------------------------------------Colors
 
 grey: #CFD8DC;

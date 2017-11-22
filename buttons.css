@@ -17,29 +17,31 @@
      box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
-.btn.btn-black.btn-samples {
+.end-button .btn.btn-black {
      border-color: #fff;
 }
 
 button a,
-.btn-samples a {
+.back-to-top a,
+.btn.btn-black a {
      color: #fff;
 }
 
 .btn-black:hover,
-.btn.btn-black.btn-samples:hover {
+.btn.btn-black:hover {
      border-color: #8f0214;
 }
 
 button a:hover,
-.btn-samples a {
+.back-to-top a:hover,
+.btn.btn-black a {
      color: #fff;
      text-decoration: none;
 }
-.btn-samples a:focus {
-     color: #fff;
+.btn.btn-black a:focus {
      opacity: 0.5;
 }
+
 
 /*RED-releases-homepage*/
 
