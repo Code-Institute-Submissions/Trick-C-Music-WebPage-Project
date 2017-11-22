@@ -145,14 +145,12 @@ html {
      text-align: center;
 }
 
-.homepage-left-section {
-     padding: 0;
-}
 
 .section-home-container h2,
 .section-home-container h3,
 .section-home-container h4 {
      padding-top: 1vh;
+     padding-bottom: 2vh;
 }
 
 .projects-homepage h3 {
@@ -181,20 +179,10 @@ html {
      text-align: center;
 }
 
-.boxes-releases {
-     display: inline-block;
-     max-width: 45%;
-     margin-bottom: 4vh;
-}
-
-.img-circle {
-     width: 60%;
-     margin: 0 5% 0 5%;
-}
-
 .back-to-top {
      text-align: center;
-     margin-bottom: 20px;
+     margin-bottom: 80px;
+     margin-top: 30px;
 }
 
 .back-to-top a {
@@ -226,8 +214,9 @@ h2 {
 
 .section-page-container {
      clear: both;
-     padding: 0 5vw 2vh 5vw;
+     padding: 0 5vw 2vh 0vw;
      max-width: 2200px;
+     text-align: center;
 }
 
 .page-text {
@@ -240,47 +229,23 @@ h2 {
 
 /*-------------------------------------------Section-Content-Releases*/
 
-/*
-audio::-internal-media-controls-download-button {
-    display: none;
-}
-audio::-webkit-media-controls-enclosure {
-    overflow: hidden;
+.boxes-releases {
+     display: inline-block;
+     padding-top: 3vh;
 }
 
-audio::-webkit-media-controls-timeline {
-    -webkit-filter: grayscale(10%) brightness(15%) sepia(10%) hue-rotate(150deg) saturate(1000%) contrast(1);
-}
-audio::-webkit-media-controls-volume-slider-container {
-     background-color: #eee;
-}
-audio::-webkit-media-controls-volume-slider {
-     background-color: #eee;
-}
-*/
-
-audio::-webkit-media-controls-panel {
-    width: calc(100% + 32px); 
+.img-circle {
+     width: 50%;
 }
 
-audio::-webkit-media-controls-panel
-audio::-internal-media-controls-download-button
-audio::-webkit-media-controls-enclosure
-audio::-webkit-media-controls-mute-button
-audio::-webkit-media-controls-play-button
-audio::-webkit-media-controls-timeline-container
-audio::-webkit-media-controls-current-time-display
-audio::-webkit-media-controls-time-remaining-display
-audio::-webkit-media-controls-timeline
-audio::-webkit-media-controls-volume-slider-container
-audio::-webkit-media-controls-volume-slider
-audio::-webkit-media-controls-seek-back-button
-audio::-webkit-media-controls-seek-forward-button
-audio::-webkit-media-controls-fullscreen-button
-audio::-webkit-media-controls-rewind-button
-audio::-webkit-media-controls-return-to-realtime-button
-audio::-webkit-media-controls-toggle-closed-captions-button
+.sample-audio {
+     text-align: center;
+}
 
+.sample-audio {
+     padding-top: 3vh;
+     padding-bottom: 3vh;
+}
 
 /*-------------------------------------------Section-Image-Pages*/
 
@@ -320,20 +285,11 @@ audio::-webkit-media-controls-toggle-closed-captions-button
 
 /*-------------------------------------------Media Queries*/
 
-@media (max-width: 494px) {
-     .boxes-releases {
-          min-width: 80%;
-          max-width: 90%;
-     }
-     .img-circle {
-          width: 70%;
-     }
-}
 
 @media (min-width: 768px) {
      .section-page-container {
-     clear: both;
-     padding: 70px 5vw 2vh 5vw;
+     padding-top: 70px;
+          padding-bottom: 120px;
      }
      .cta-container p {
           margin-bottom: 1vh;
@@ -354,10 +310,6 @@ audio::-webkit-media-controls-toggle-closed-captions-button
      #cta-line {
           min-width: 350px;
      }
-     .homepage-right-section {
-          padding-left: 0;
-          padding-right: 30px;
-     }
 }
 
 @media (min-width: 1200px) {
@@ -368,31 +320,16 @@ audio::-webkit-media-controls-toggle-closed-captions-button
      .section-home-container h2 {
           margin-bottom: 30px;
      }
+}
+
+@media (min-width: 1609px) {       /* not working? */
      .boxes-releases {
-          max-width: 30%;
-          margin-bottom: 4vh;
+          padding-bottom: 5vh;
      }
 }
 
-@media (min-width: 1665px) {
-     .img-circle {
-          width: 95%;
-     }
-     .boxes-releases {
-          max-width: 30%;
-          margin-left: 5%;
-          margin-right: 5%;
-     }
-}
 
-@media (min-width: 2569px) {
-     .boxes-releases {
-          max-width: 30%;
-          margin-left: 7%;
-          margin-right: 7%;
-     }
-}
-
+     
 /*-------------------------------------------Colors
 
 grey: #CFD8DC;
