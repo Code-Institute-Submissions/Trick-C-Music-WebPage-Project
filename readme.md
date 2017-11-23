@@ -1,4 +1,4 @@
-#Web Page for Music Artist
+# Web Page for Music Artist
 
 
 This project is a representational page for a music artist. 
@@ -14,7 +14,7 @@ Target audience are fans, potential fans and other artists.
 
 
 
-##Process of creating a page
+## Process of creating a page
 
 + First drafts were created on a design platform InVision
 + Basic layout of pages was designed in Photoshop
@@ -23,7 +23,7 @@ Target audience are fans, potential fans and other artists.
 + Code was tested numerous times throughout the process to ensure proper functioning and keep it as clean as possible
 
 
-##Technologies used
+## Technologies used
 
 + HTML5
 + CSS3
