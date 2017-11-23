@@ -64,7 +64,8 @@ button a:hover,
 
 .caption a,
 .cta-container button,
-.modal button {
+.modal button,
+.btn-group button {
      color: #fff;
 }
 
@@ -74,11 +75,13 @@ button a:hover,
 
 .caption a:hover,
 .cta-container button:hover,
-.modal button:hover {
+.modal button:hover,
+.btn-group button:hover {
      color: #fff;
      text-decoration: none;
 }
-.caption a:focus {
+.caption a:focus,
+.btn-group button:focus {
      color: #fff;
      opacity: 0.5;
 }
