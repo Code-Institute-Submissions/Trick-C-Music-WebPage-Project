@@ -81,7 +81,7 @@ html {
      display: flex;
      margin-top: 70px;
      position: relative;
-     height: 70vh;
+     height: 50vh;
      width: 100vw;
      align-items: flex-end;
      justify-content: center;
@@ -315,6 +315,9 @@ hr.transparent {
      .section-page-container-releases {
           padding-top: 70px;
           padding-bottom: 120px;
+     }
+     .cta-container {
+          height: 70vh;
      }
      .cta-container p {
           margin-bottom: 1vh;
