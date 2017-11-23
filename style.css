@@ -57,7 +57,7 @@ html {
 
 .main-home-container {
      clear: both;
-     background: url("images/main-image2.jpg") no-repeat center center fixed;
+     background: url("images/main-image.jpg") no-repeat center center fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
