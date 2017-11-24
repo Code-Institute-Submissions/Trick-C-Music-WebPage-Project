@@ -57,7 +57,7 @@ html {
 
 .main-home-container {
      clear: both;
-     background: url("images/main-image.jpg") no-repeat center center fixed;
+     background: url("images/main-image.jpg") no-repeat center center scroll;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -306,6 +306,9 @@ hr.transparent {
 /*-------------------------------------------Media Queries*/
 
 @media (min-width: 768px) {
+     .main-home-container {
+     background: url("images/main-image.jpg") no-repeat center center fixed;
+     }
      .section-page-container {
           padding-top: 70px;
      }
