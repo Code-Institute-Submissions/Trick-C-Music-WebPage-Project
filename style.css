@@ -196,9 +196,14 @@ html {
      text-align: center;
 }
 
-video {
-     max-width: 100%;
-     height: auto;
+.sample-video {
+     overflow: hidden;
+}
+
+
+.caption-sample h3 {
+     text-align: justify;
+     padding-bottom: 0;
 }
 
 /*-------------------------------------------Section-Content-Pages-General*/
