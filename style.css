@@ -184,10 +184,21 @@ html {
      text-align: justify;
 }
 
+.projects-homepage a {
+     color: #3b3b3b;
+     text-decoration: none;
+}
+
 .next-event,
 .latest-mix,
-.latest-releases {
+.latest-releases,
+.video-events {
      text-align: center;
+}
+
+video {
+     max-width: 100%;
+     height: auto;
 }
 
 /*-------------------------------------------Section-Content-Pages-General*/
@@ -282,6 +293,7 @@ hr.transparent {
 }
 
 #footer {
+     clear: both;
      background-color: #000;
      height: 70px;
      width: 100%;
