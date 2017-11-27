@@ -15,8 +15,6 @@ audio::-webkit-media-controls-panel {
      transition: opacity 0.25s linear;
 }
 video::-webkit-media-controls-panel {
-     width: 100%;
-     height: auto;
      box-sizing: border-box;
      position: relative;
      min-height: 25px;

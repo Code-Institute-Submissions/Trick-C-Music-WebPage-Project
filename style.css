@@ -1,7 +1,7 @@
 html,
 body {
      font-family: "Exo 2", sans-serif;
-     background-color: #CFD8DC;
+     background-color: #e0e0e0;
 }
 
 html {
@@ -85,6 +85,9 @@ html {
      width: 100vw;
      align-items: flex-end;
      justify-content: center;
+     background: url("images/red-and-gray-sound-waves.png") no-repeat bottom;
+     -webkit-background-size: contain;
+    background-size: contain;
 }
 
 .cta-container p {
@@ -129,7 +132,7 @@ html {
      padding-bottom: 3vh;
      margin-bottom: 0;
      color: inherit;
-     background-color: #eee;
+     background-color: #eee;  
      border-radius: 0;
 }
 
@@ -200,7 +203,10 @@ html {
      overflow: hidden;
 }
 
-
+video {
+     width: 100%;
+     height: auto;
+}
 .caption-sample h3 {
      text-align: justify;
      padding-bottom: 0;
@@ -274,6 +280,19 @@ hr.transparent {
      width: 50px;
      border-top-color: #333;
      opacity: 0.5;
+}
+
+
+/*-------------------------------------------Section-Content-Music*/
+.image-soundwave {
+     background: url("images/red-and-gray-sound-waves.png") no-repeat top;
+     -webkit-background-size: contain;
+     background-size: contain;
+     width: 100%;
+     margin: 1vh 0 1vh 0;
+}
+.caption-image {
+     padding-bottom: 3vh;
 }
 
 /*-------------------------------------------Section-Image-General*/
@@ -381,6 +400,10 @@ hr.transparent {
 }
 
 @media (min-width: 1200px) {
+     body p,
+     li {
+          font-size: 120%;
+     }
      .container-fluid .jumbotron {
           padding-left: 0px;
           padding-right: 0px;
