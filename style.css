@@ -2,6 +2,7 @@ html,
 body {
      font-family: "Exo 2", sans-serif;
      background-color: #e0e0e0;
+     overflow-x: hidden;
 }
 
 html {
@@ -342,11 +343,14 @@ hr.transparent {
 
 @media (min-width: 768px) {
      .main-home-container {
-     background: url("images/main-image.jpg") no-repeat center center fixed;
-               -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
+          background: url("images/main-image.jpg") no-repeat fixed;
+          background-position-x: center;
+          background-position-y: 69px;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          
      }
      .section-page-container {
           padding-top: 70px;
@@ -384,6 +388,9 @@ hr.transparent {
      #cta-line {
           min-width: 350px;
      }
+     .right-column-homepage {
+          padding-right: 3vw;
+     }
      .sample-audio,
      .caption-sample {
           padding-left: 0px;
@@ -407,6 +414,7 @@ hr.transparent {
           padding-left: 0px;
           padding-right: 0px;
      }
+
      .section-home-container h2 {
           margin-bottom: 30px;
      }
@@ -423,6 +431,9 @@ hr.transparent {
      .sample-audio,
      .caption-sample {
           width: 120%;
+     }
+     .right-column-homepage {
+          padding-right: 5vw;
      }
 }
 
