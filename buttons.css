@@ -1,4 +1,4 @@
-/*BLACK-navbar,footer*/
+/* BLACK */
 
 .btn.btn-black,
 .btn.btn-black:active,
@@ -42,8 +42,9 @@ button a:hover,
      opacity: 0.5;
 }
 
+/* Code snippet for button is from http://www.cssflow.com/snippets/dark-horizontal-navigation/demo. It was changed to fit the style of this page. */
 
-/*RED-releases-homepage*/
+/* RED */
 
 .btn.btn-red,
 .btn.btn-red:active,

@@ -1,3 +1,7 @@
+/* For styling audio and video player I found sample code on https://opensource.apple.com/source/WebCore/WebCore-7600.1.4.13.2/Modules/mediacontrols/mediaControlsApple.css.auto.html. 
+The code is included in media-controls-apple-inc.css but not linked to my html files. I used just a few media controls properties and adjusted them to fit the style on this page.*/
+
+
 audio::-webkit-media-controls-panel {
      box-sizing: border-box;
      border-radius: 10px;

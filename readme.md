@@ -17,10 +17,12 @@ Target audience are fans, potential fans and other artists.
 ## Process of creating a page
 
 + First drafts were created on a design platform InVision
-+ Basic layout of pages was designed in Photoshop
++ Basic layout (draft) of pages was designed in Photoshop
 + Code was written on a platform for developers Codeanywhere
 
 + Code was tested numerous times throughout the process to ensure proper functioning and keep it as clean as possible
++ I regularly checked the layout of pages for different devices in Chrome and also on my phone and laptop with smaller screeen
++ Final check for different OS and browsers was made with http://browsershots.org/
 
 
 ## Technologies used
@@ -30,6 +32,7 @@ Target audience are fans, potential fans and other artists.
 + Bootstrap
 + JavaScript for modal (contact form)
 + template for media controls (copied a few properties)
++ Chrome DevTools
 
 + and a lot of Google and Stack Overflow
 
