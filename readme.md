@@ -12,6 +12,9 @@ For events promotion there is an option to sign up to get info about next events
 Target audience are fans, potential fans and other artists. 
 
 
+This Project is deployed [here](https://tjasajan.github.io/Trick-C-Music-WebPage-Project/)
+
+Source code is availible on [GitHub](https://github.com/tjasajan/Trick-C-Music-WebPage-Project)
 
 
 ## Process of creating a page
